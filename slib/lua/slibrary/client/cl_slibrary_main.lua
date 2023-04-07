@@ -11,7 +11,7 @@ function OpenFrameSLibrary()
     S_Library.Derma.MainFrame:MakePopup()
     S_Library.Derma.MainFrame.Paint = function(s,w,h)
             draw.RoundedBox(5, 0, 0, w, h, Color(50,50,50))
-            draw.SimpleText("SLibrary", "SCall911Font", SentroW(425), SentroH(25), Color(255,255,255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+            draw.SimpleText("SLibrary", "SLibraryFont:3", SentroW(425), SentroH(25), Color(255,255,255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
     end
 end
 
